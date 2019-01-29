@@ -1,8 +1,8 @@
-# Ueno Newsletter
+# Surel by Meridian.id
 
-> Newsletter email templates
+> Newsletter email templates, based on Ueno newsletter
 
-The HTML email templates for Ueno's wonderful [newsletter](https://ueno.co/newsletter). They use [Foundation for Emails](https://foundation.zurb.com/emails) components and CSS, and are compiled with Handlebars.
+This HTML email templates built using [Foundation for Emails](https://foundation.zurb.com/emails) components and CSS (Sass), and are compiled with Handlebars.
 
 ## Installation
 
@@ -51,4 +51,4 @@ Based on the metrics of our mailing list, we test in these email clients:
 
 ## License
 
-MIT &copy; [ueno.](https://ueno.co)
+MIT &copy; [meridian.id](https://meridian.id)

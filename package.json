@@ -1,5 +1,5 @@
 {
-  "name": "ueno-newsletter",
+  "name": "meridianid-surel",
   "private": true,
   "description": "Newsletter email templates",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ueno-llc/newsletter.git"
+    "url": "git+ssh://git@github.com:meridianid/surel.git"
   },
-  "author": "ueno. <hi@ueno.co> (http://ueno.co)",
+  "author": "Ongki Herlambang. <o@meridian.id> (http://meridian.id)",
   "license": "MIT",
-  "homepage": "https://github.com/ueno-llc/newsletter#readme",
+  "homepage": "https://github.com/meridianid/surel#readme",
   "devDependencies": {
     "cpy-cli": "^2.0.0",
     "foundation-emails": "^2.2.1",

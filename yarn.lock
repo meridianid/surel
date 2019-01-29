@@ -2476,6 +2476,11 @@ invert-kv@^1.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
   integrity sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
 
+invoker-tokens@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/invoker-tokens/-/invoker-tokens-1.0.10.tgz#c651bb634867f37cc690145c9407c9cc5b26644b"
+  integrity sha512-MGZDdpXDvScERmopIh5BBDJMvlOx1/5OG8oIYF44AfwCqkOHcT+bacFNSsBEM88BN7scD+2YHRqyTn01B+wmIA==
+
 is-absolute@^0.2.5:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/is-absolute/-/is-absolute-0.2.6.tgz#20de69f3db942ef2d87b9c2da36f172235b1b5eb"

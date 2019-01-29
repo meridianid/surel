@@ -26,5 +26,8 @@
     "panini": "^2.0.0-alpha.2",
     "rimraf": "^2.6.3",
     "scow": "^4.0.0-alpha.6"
+  },
+  "dependencies": {
+    "invoker-tokens": "^1.0.10"
   }
 }

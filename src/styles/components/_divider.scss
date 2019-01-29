@@ -1,0 +1,29 @@
+////
+/// Email-friendly divider. Use the `{{> divider}}` partial to generate the required HTML.
+////
+
+.divider {
+  padding: 0;
+  margin: 70px 0 70px 0;
+  border: none;
+  width: 100%;
+  height: 1px;
+
+  @include on-mobile {
+    margin: 45px 0 45px 0 !important;
+  }
+
+  &--narrow {
+    margin: 45px 0 45px 0;
+
+    @include on-mobile {
+      margin: 25px 0 25px 0 !important;
+    }
+  }
+}
+
+// Prevents margins from collapsing on some email clients
+.divider-safeguard {
+  height: 0;
+  margin-bottom: 0;
+}

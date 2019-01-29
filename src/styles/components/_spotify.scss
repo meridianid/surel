@@ -1,0 +1,24 @@
+.spotify {
+  overflow: hidden;
+  clear: both;
+
+  &__main {
+    padding-top: 80px;
+    width: 400px;
+    float: left;
+
+    @include on-mobile {
+      width: auto;
+    }
+  }
+
+  &__photo {
+    width: 180px;
+    float: right;
+    clear: none;
+
+    @include on-mobile {
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+////
+/// Email footer.
+////
+
+// Make the background color transparent
+table.footer {
+  background-color: $body-background;
+}
+
+// Outer container (row)
+.footer {
+  // Inner container (column)
+  &__content {
+
+    @include on-mobile {
+      padding-top: 52px !important;
+      padding-bottom: 50px !important;
+    }
+  }
+
+  // Text within footer
+  &__text {
+    padding-top: 25px;
+
+    p {
+      @include antialias;
+      font-size: 12px;
+      line-height: 20px;
+      color: $color-dark-gray;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: underline;
+
+      &,
+      &:link,
+      &:visited {
+        color: $color-dark-gray;
+      }
+    }
+  }
+}

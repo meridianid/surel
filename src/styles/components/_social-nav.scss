@@ -1,0 +1,46 @@
+////
+/// Social links displayed within footer.
+////
+
+// Prevent mobile Gmail from breaking the layout
+table.social-nav.social-nav {
+  @include on-mobile {
+    width: auto !important;
+  }
+}
+
+table.menu th.social-nav__item {
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu img.social-nav__item__icon {
+  &--facebook {
+    width: 10px;
+  }
+
+  &--twitter {
+    width: 21px;
+  }
+
+  &--instagram {
+    width: 19px;
+  }
+
+  &--medium {
+    width: 18px;
+  }
+
+  &--dribbble {
+    width: 18px;
+  }
+
+  &--github {
+    width: 18px;
+  }
+
+  &--spotify {
+    width: 18px;
+  }
+}

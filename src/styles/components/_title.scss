@@ -1,0 +1,44 @@
+////
+/// Subsection titles and subtitles. Used in the Ueno.Store and Ueno.Design galleries.
+////
+
+.title,
+.subtitle {
+  &,
+  a {
+    font-family: $font-akagi;
+  }
+}
+
+.title {
+  @include antialias;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+
+  @include on-mobile {
+    font-size: 14px !important;
+    margin-bottom: 4px !important;
+  }
+
+  &,
+  a {
+    color: $black;
+  }
+}
+
+.subtitle {
+  @include antialias;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 0;
+
+  @include on-mobile {
+    font-size: 14px !important;
+  }
+
+  &,
+  a {
+    color: $color-dark-gray;
+  }
+}

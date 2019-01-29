@@ -1,0 +1,34 @@
+////
+/// The Ueno.Design gallery in the newsletter template.
+////
+
+.design-gallery {
+  margin-top: 25px;
+
+  @include on-mobile {
+    &.row th.columns.first {
+      padding-left: $global-gutter / 2 !important;
+      padding-right: $global-gutter / 4 !important;
+    }
+
+    &.row th.columns.last {
+      padding-left: $global-gutter / 4 !important;
+      padding-right: $global-gutter / 2 !important;
+    }
+  }
+
+  &__item {
+    display: block;
+    padding-bottom: 60px;
+
+    &__image {
+      padding-bottom: 20px;
+    }
+
+    .title,
+    .subtitle {
+      text-align: center;
+      clear: both;
+    }
+  }
+}

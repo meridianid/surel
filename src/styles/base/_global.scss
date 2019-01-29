@@ -1,0 +1,67 @@
+////
+/// General styles go here.
+////
+
+// Prevent Thunderbird from applying floats to tables
+.row {
+  float: none;
+}
+
+// Body text
+.body-text {
+  margin-bottom: 30px;
+
+  p {
+    @include antialias;
+    font-family: $font-akagi;
+    font-size: 16px;
+    line-height: 27px;
+    color: $color-gray;
+
+    @include on-mobile {
+      font-size: 14px !important;
+      line-height: 21px !important;
+    }
+  }
+
+  a {
+    &,
+    &:link,
+    &:visited {
+      font-family: $font-akagi;
+      color: $color-gray;
+			font-weight: normal;
+			text-decoration: underline;
+    }
+  }
+
+  &--dark {
+    p {
+      color: $color-off-black;
+    }
+  }
+}
+
+// Overrides to the email container
+.container {
+  margin-top: $global-gutter !important;
+
+  @include on-mobile {
+    margin-top: 0 !important;
+  }
+}
+
+// Fix for the default `.show-for-large` class not working
+@media screen and (max-width: 620px) {
+  .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+.clearfix {
+  overflow: hidden;
+  clear: both;
+}

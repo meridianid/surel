@@ -1,0 +1,39 @@
+////
+/// Poster images used in articles.
+////
+
+.image {
+  width: 100%;
+
+  // Title text
+  &--title {
+    padding-bottom: 32px;
+  }
+
+  &--narrow-title {
+    @include on-mobile {
+      height: 58px !important;
+      width: auto !important;
+    }
+  }
+
+  // Upper image, appears below the first title
+  &--upper {
+    margin-top: 30px;
+    padding-bottom: 55px;
+
+    @include on-mobile {
+      margin-top: 5px !important;
+      padding-bottom: 30px !important;
+    }
+  }
+
+  // Lower images, appear below all subsequent titles
+  &--lower {
+    padding-top: 60px;
+
+    @include on-mobile {
+      padding-top: 30px !important;
+    }
+  }
+}

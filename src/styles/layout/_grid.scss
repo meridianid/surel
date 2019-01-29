@@ -1,0 +1,38 @@
+////
+/// Grid-specific styles go here.
+////
+
+// Change up how gutters are calculated on small screens
+// The insane specificity is needed to override Foundation for Emails's default CSS
+@include on-mobile {
+  th.columns.columns.columns {
+    padding-left: $global-gutter / 2 !important;
+    padding-right: $global-gutter / 2 !important;
+  }
+}
+
+// `.row` modifier for a narrow container
+.narrow {
+  .columns.first {
+    padding-left: $global-gutter * 2;
+  }
+
+  .columns.last {
+    padding-right: $global-gutter * 2;
+  }
+}
+
+.segment {
+  padding-left: $global-gutter;
+  padding-right: $global-gutter;
+
+  &--narrow {
+    padding-left: $global-gutter * 2;
+    padding-right: $global-gutter * 2;
+  }
+
+  @include on-mobile {
+    padding-left: $global-gutter / 2 !important;
+    padding-right: $global-gutter / 2 !important;
+  }
+}

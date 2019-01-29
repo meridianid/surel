@@ -7,8 +7,8 @@ This HTML email templates built using [Foundation for Emails](https://foundation
 ## Installation
 
 ```bash
-git clone git@github.com:ueno-llc/newsletter
-cd newsletter
+git clone git@github.com:meridianid/surel.git
+cd surel
 npm install
 ```
 

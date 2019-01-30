@@ -1,4 +1,4 @@
-# Surel by Meridian.id
+# Surel
 
 > Newsletter email templates, based on Ueno newsletter
 
